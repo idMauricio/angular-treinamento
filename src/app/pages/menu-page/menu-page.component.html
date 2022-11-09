@@ -1,0 +1,13 @@
+<!-- <div class="text-center">
+    <p>menu-page works!</p>
+    <br>
+    <button type="button" class="btn btn-block btn-info" (click)="irUserScreen()">Voltar</button>
+</div> -->
+<br>
+<!-- Componente Não utilizado -->
+<!--  <app-user-screen [menuItem]="dataMenu"></app-user-screen> --> 
+<div class="row">
+    <div class="col-sm" *ngFor="let data of dataMenu">
+        <app-fish-card [dataFish]="data"></app-fish-card>
+    </div>
+</div>
